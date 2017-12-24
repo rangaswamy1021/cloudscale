@@ -1,0 +1,167 @@
+<div class="container-fluid">
+
+    <a href='javascript:;' data-remodal-action="close" class="close-modal"><img src='assets/images/icons/close.svg'></a>
+
+    <div class="login-signup">
+
+        <div class="row">
+
+            <div class="tab-content">
+
+                <div class="tab-pane fade in active" id='login'>
+
+                    <div class="col-sm-6 login-sec">
+
+                        <h3>Login</h3>
+
+                        <form action="">
+
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id='username' placeholder="Username">
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <input type="password" class="form-control" id='password' placeholder="Password">
+
+                            </div>
+
+                            <div class="check">
+
+                                <div class="squaredThree">
+
+                                    <input type="checkbox" value="None" id="squaredThree" name="check" />
+
+                                    <label for="squaredThree"></label>
+
+
+
+                                </div>
+
+                                <p class="content">Keep me signed in</p>
+
+                            </div>
+
+                            <button type="submit" class="btn btn-custom"> <a href="dev-center-2.html">Login</a> </button>
+
+                        </form>
+
+                    </div>
+
+                    <div class="col-sm-6 misc-sec">
+
+
+
+                        <p>If you don’t already have an account click the button below to create your account.</p>
+
+                        <a class="btn btn-custom" data-toggle='tab' href="#signup">Create Account</a>
+
+                        <h4>or</h4>
+
+                        <button class="btn btn-custom fb"><img src='assets/images/icons/Group 17.svg' class="svgImage">Sign In with facebook</button>
+
+                        <button class="btn btn-custom twit"><img src='assets/images/icons/Group 16.svg' class="svgImage">Sign In with twitter</button>
+
+                    </div>
+
+
+
+                    <div class="col-sm-12 forgot-pass-link">
+
+                        <h4>So you can’t get in to your account? Did you <a href='#'>forget your password?</a></h4>
+
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade" id='signup'>
+
+                    <div class="col-sm-6 signup-sec">
+
+                        <h3>Join Skincraft</h3>
+
+                        <form>
+
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id='fname' placeholder="First name">
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id='lname' placeholder="Last name">
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id='email' placeholder="Email">
+
+                            </div>
+
+                            <div class="form-group">
+
+                                <input type="text" class="form-control" id='mobile' placeholder="Mobile">
+
+                            </div>
+
+                            <button type="submit" class="btn btn-custom">Sign up</button>
+
+                            <p class="agree">By signing up, I agree to terms</p>
+
+                        </form>
+
+                    </div>
+
+                    <div class="col-sm-6 misc-sec signup-misc">
+
+
+
+                        <p>If you don’t already have an account click the button below to create your account.</p>
+
+                        <button class="btn btn-custom" data-toggle='tab' href="#login">Already have an account</button>
+
+                        <h4>or</h4>
+
+                        <button class="btn btn-custom fb"><img src='assets/images/icons/Group 17.svg' class="svgImage">Sign In with facebook</button>
+
+                        <button class="btn btn-custom twit"><img src='assets/images/icons/Group 16.svg' class="svgImage">Sign In with facebook</button>
+
+                    </div>
+
+                    <div class="col-sm-12 forgot-pass-link">
+
+                        <h4>So you can’t get in to your account? Did you <a href='#'>forget your password?</a></h4>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+<script src="assets/js/svgImage.js"></script>
+
+<script>
+    $('.close-modal').click(function() {
+
+        $('.remodal-is-opened').removeClass('remodal-is-opened').addClass('remodal-is-closing');
+
+        setTimeout(function() {
+
+            $('.remodal-is-closing').removeClass('remodal-is-closing').addClass('remodal-is-closed').hide();
+
+        }, 300)
+
+    });
+</script>

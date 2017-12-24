@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="favicon.ico" sizes="16x16" type="image/png">
+    <title>Portfolio Analysis - CloudScale QA</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+    <!--build:css assets/css/step-form.min.css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/remodal.css">
+    <link rel="stylesheet" href="assets/css/remodal-default-theme.css">
+    <link rel="stylesheet" href="assets/css/tyle.css">
+
+    <link rel="stylesheet" href="assets/css/step-form.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--endbuild-->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-default affix">
+
+            <div class="container">
+
+                <div class="col-md-4 col-lg-4">
+                    <div class="navbar-header">
+
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar1">
+
+                                                <span class="icon-bar"></span>
+
+                                                <span class="icon-bar"></span>
+
+                                                <span class="icon-bar"></span> 
+
+                                    </button>
+
+                        <a href="index.html" class="navbar-brand"><img src="assets/images/logo-black.png"></a>
+
+                    </div>
+                </div>
+                <div class="col-md-4 col-lg-4 page-title">
+                    <h3>Portfolio Analysis</h3>
+                </div>
+                <div class="col-md-4 col-lg-4 page-close">
+                    <div class="close-steps">
+                        <a href='index.html'><img src='assets/images/close.png'></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+    <section class="form-steps">
+        <ul class="survey-sections">
+            <li class="active"><span class="sec-num done">1</span><a sec-name="sec-1" href="javascript:;">Scope/Scale</a></li>
+            <li class="active"><span class="sec-num done">2</span><a sec-name="sec-2"  href="javascript:;">Sprint/Dev</a></li>
+            <li class="active"><span class="sec-num done">3</span><a sec-name="sec-3"  href="javascript:;">QA/Release</a></li>
+            <li class="active"><span class="sec-num">4</span><a sec-name="sec-4"  href="javascript:;">Production</a></li>
+        </ul>
+
+    </section>
+    <section class="tyle-area">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-12 sec-1">
+                    <div class="tyle-container">
+
+                        
+                        <div class="item active">
+                            <h3>What is the frequency of deployment in to production?</h3>
+                            <div class="user-intro">
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 1</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment1-1" name="deployment1" value="all">
+                                        <label for="deployment1-1"> 2 Weeks</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment1-2" name="deployment1"value="false" checked>
+                                        <label for="deployment1-2">1-3 Months</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment1-3" name="deployment1" value="true">
+                                        <label for="deployment1-3">> 3 Months</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 2</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment2-1" name="deployment2" value="all">
+                                        <label for="deployment2-1"> 2 Weeks</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment2-2" name="deployment2"value="false" checked>
+                                        <label for="deployment2-2">1-3 Months</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment2-3" name="deployment2" value="true">
+                                        <label for="deployment2-3">> 3 Months</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 3</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment3-1" name="deployment3" value="all">
+                                        <label for="deployment3-1"> 2 Weeks</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment3-2" name="deployment3"value="false" checked>
+                                        <label for="deployment3-2">1-3 Months</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment3-3" name="deployment3" value="true">
+                                        <label for="deployment3-3">> 3 Months</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 4</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment4-1" name="deployment4" value="all">
+                                        <label for="deployment4-1">2 Weeks</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment4-2" name="deployment4"value="false" checked>
+                                        <label for="deployment4-2">1-3 Months</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment4-3" name="deployment4" value="true">
+                                        <label for="deployment4-3">> 3 Months</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 5</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment5-1" name="deployment5" value="all">
+                                        <label for="deployment5-1">2 Weeks</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment5-2" name="deployment5" value="false" checked>
+                                        <label for="deployment5-2">1-3 Months</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="deployment5-3" name="deployment5" value="true">
+                                        <label for="deployment5-3">> 3 Months</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="item">
+                            <h3>Do you monitor your production system for performance and security?</h3>
+                            <div class="user-intro">
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 1</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="performance1-1" name="performance1" value="all">
+                                        <label for="performance1-1">Yes</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="performance1-2" name="performance1"value="false" checked>
+                                        <label for="performance1-2">No</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 2</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="performance2-1" name="performance2" value="all" checked>
+                                        <label for="performance2-1">Yes</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="performance2-2" name="performance2"value="false">
+                                        <label for="performance2-2">No</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 3</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="performance3-1" name="performance3" value="all" checked>
+                                        <label for="performance3-1">Yes</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="performance3-2" name="performance3"value="false">
+                                        <label for="performance3-2">No</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 4</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="performance4-1" name="performance4" value="all" checked>
+                                        <label for="performance4-1">Yes</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="performance4-2" name="performance4"value="false">
+                                        <label for="performance4-2">No</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 5</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="performance5-1" name="performance5" value="all" checked>
+                                        <label for="performance5-1">Yes</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="performance5-2" name="performance5"value="false">
+                                        <label for="performance5-2">No</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <h3>Do you often have to roll back releases from production? </h3>
+                            <div class="user-intro">
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 1</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="backReleases1-1" name="backReleases1" value="all">
+                                        <label for="backReleases1-1">Yes</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="backReleases1-2" name="backReleases1"value="false" checked>
+                                        <label for="backReleases1-2">No</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 2</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="backReleases2-1" name="backReleases2" value="all" checked>
+                                        <label for="backReleases2-1">Yes</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="backReleases2-2" name="backReleases2"value="false">
+                                        <label for="backReleases2-2">No</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 3</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="backReleases3-1" name="backReleases3" value="all" checked>
+                                        <label for="backReleases3-1">Yes</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="backReleases3-2" name="backReleases3"value="false">
+                                        <label for="backReleases3-2">No</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 4</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="backReleases4-1" name="backReleases4" value="all" checked>
+                                        <label for="backReleases4-1">Yes</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="backReleases4-2" name="backReleases4"value="false">
+                                        <label for="backReleases4-2">No</label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 5</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="backReleases5-1" name="backReleases5" value="all" checked>
+                                        <label for="backReleases5-1">Yes</label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="backReleases5-2" name="backReleases5"value="false">
+                                        <label for="backReleases5-2">No</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <div class="item active">
+                            <h3>How many emergency production releases ? </h3>
+                            <div class="user-intro">
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 1</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production1-1" name="production1" value="all">
+                                        <label for="production1-1"> 2 </label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production1-2" name="production1"value="false" checked>
+                                        <label for="production1-2">2-4 </label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production1-3" name="production1" value="true">
+                                        <label for="production1-3">> 4 </label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 2</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production2-1" name="production2" value="all">
+                                        <label for="production2-1"> 2 </label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production2-2" name="production2"value="false" checked>
+                                        <label for="production2-2">2-4 </label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production2-3" name="production2" value="true">
+                                        <label for="production2-3">> 4 </label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 3</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production3-1" name="production3" value="all">
+                                        <label for="production3-1"> 2 </label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production3-2" name="production3"value="false" checked>
+                                        <label for="production3-2">2-4 </label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production3-3" name="production3" value="true">
+                                        <label for="production3-3">> 4 </label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 4</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production4-1" name="production4" value="all">
+                                        <label for="production4-1">2 </label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production4-2" name="production4"value="false" checked>
+                                        <label for="production4-2">2-4 </label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production4-3" name="production4" value="true">
+                                        <label for="production4-3">> 4 </label>
+                                    </div>
+                                </div>
+                                <div class="checkbox-container">
+                                    <span class="checkbox-title">App Name 5</span>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production5-1" name="production5" value="all">
+                                        <label for="production5-1">2 </label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production5-2" name="production5" value="false" checked>
+                                        <label for="production5-2">2-4 </label>
+                                    </div>
+                                    <div class="checkbox-block">
+                                        <input type="radio" id="production5-3" name="production5" value="true">
+                                        <label for="production5-3">> 4 </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- <div class="tab-pane fade  in active" id='current-skin-care'> -->
+
+
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="close-steps">
+            <a href='index.html'><img src='assets/img/icons/close.png'></a>
+        </div>
+
+    </section>
+    <section class="step-buttons-container">
+    </section>
+    <div class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false">
+
+    </div>
+    <!--build:js assets/js/step-form.min.js -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/tyle.js"></script>
+    <script src="assets/js/svgImage.js"></script>
+    <script src="assets/js/remodal.js"></script>
+
+
+    <!--endbuild-->
+    <script>
+        $(document).ready(function () {
+            $('.tyle-container').tyle({
+                showProgressCount: true,
+                onFinish:function(){
+                    window.location='portfolio-login.html'
+                }
+            });
+
+        })
+    </script>
+</body>
+
+</html>

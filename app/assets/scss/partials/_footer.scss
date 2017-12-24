@@ -1,0 +1,17 @@
+footer {
+    padding: 20px;
+    p {
+        display: inline-block;
+        margin-right: 20px;
+        font-size: 13px;
+        color: #333333;
+        letter-spacing: 0;
+        margin: 0px;
+    }
+    a {
+        margin: 0px 8px;
+        &:last-child{
+            margin-right:0px;
+        }
+    }
+}

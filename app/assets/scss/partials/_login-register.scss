@@ -1,0 +1,204 @@
+.remodal {
+    max-width: 800px;
+    padding: 0px;
+}
+
+.login-signup {
+    text-align: left;
+    .login-sec {
+        padding: 40px;
+    }
+    form {
+        .form-control {
+            border: 1px solid #ddd;
+            height: 42px;
+        }
+        .squaredThree {
+            float: left;
+            width: 20px;
+            margin-left: 5px;
+            position: relative;
+            margin: 0px auto;
+            label {
+                width: 15px;
+                height: 15px;
+                cursor: pointer;
+                border-radius: 3px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                border: 1px solid rgba(0, 0, 0, 0.2);
+                &:after {
+                    content: '';
+                    width: 9px;
+                    height: 5px;
+                    position: absolute;
+                    top: 3px;
+                    left: 2px;
+                    border: 2px solid $base-color;
+                    border-top: none;
+                    border-right: none;
+                    background: transparent;
+                    opacity: 0;
+                    transform: rotate(-45deg);
+                }
+                &:hover::after {
+                    opacity: 0.3;
+                }
+            }
+            input[type=checkbox] {
+                visibility: hidden;
+                &:checked+label:after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+    h3 {
+        font-size: 24px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    h4 {
+        text-align: center;
+        margin: 20px 0px;
+        font-weight: 700;
+        font-size: 12px;
+        color: #999999;
+        text-transform: uppercase;
+    }
+    p {
+        font-weight: 500;
+        font-size: 14px;
+        color: #666666;
+        line-height: 18px;
+        &.content {
+            font-size: 12px;
+            color: #666666;
+            font-weight: 500;
+            margin-top: 1px;
+            float: left;
+            margin-left: 5px;
+        }
+        &.agree {
+            font-size: 12px;
+            margin-top: 10px;
+            color: #999;
+        }
+    }
+    .btn-custom {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0px;
+        padding: 13px;
+        font-size: 13px;
+        a {
+            width: 100%;
+            display: block;
+        }
+        &:hover {
+            color: #ffffff;
+        }
+        .svgImage {
+            margin-right: 8px;
+            width: 15px;
+            margin-top: 2px;
+            height: 15px;
+            vertical-align: top;
+            display: inline-block;
+            path {
+                opacity: 1;
+                fill: #fff;
+            }
+        }
+        &:hover {
+            path {
+                fill: $base-color;
+            }
+        }
+        &.fb {
+            margin-top: 0px;
+            background: #39579A;
+            &:hover {
+                border-color: #39579A;
+                background: none;
+                color: #39579A;
+                path {
+                    fill: #39579A;
+                }
+            }
+        }
+        &.twit {
+            background: #049FF6;
+            &:hover {
+                border-color: #049FF6;
+                background: none;
+                color: #049FF6;
+                path {
+                    fill: #049FF6;
+                }
+            }
+        }
+    }
+    .misc-sec {
+        padding: 40px;
+        border-left: 1px solid #d8d8d8;
+        &.signup-misc {
+            padding-top: 86px;
+            padding-bottom: 70px;
+        }
+        @media(max-width:767px) {
+            border-left: none;
+            border-top: 1px solid #d8d8d8;
+        }
+    }
+    .forgot-pass-link {
+        width: 100%;
+        background: #f2f2f2;
+        padding: 27px;
+        h4 {
+            font-weight: 500;
+            font-size: 13px;
+            color: #999999;
+            margin: 0px;
+            a {
+                color: $base-color;
+            }
+        }
+    }
+    .signup-sec {
+        padding: 40px;
+        padding-bottom: 10px;
+    }
+    @media(max-width:767px) {
+        .login-sec,
+        .signup-sec {
+            padding: 20px;
+        }
+        .misc-sec {
+            padding: 20px;
+            &.signup-misc {
+                padding: 20px;
+            }
+        }
+        h3 {
+            font-size: 16px;
+        }
+        .btn-custom {
+            padding: 10px;
+        }
+        .forgot-pass-link {
+            h4 {
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.close-modal {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 9;
+}
+
